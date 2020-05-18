@@ -3,60 +3,99 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
+    <!-- Four card feature section using CSS Grid -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
     <title>Frontend Mentor | Four card feature section</title>
-
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="container">
-      <section>
+      <header class="text-center pt-1 pb-2">
         <h1>
-          <span>Reliable, efficient delivery</span><br />
+          <span class="font-w200">Reliable, efficient delivery</span><br />
           Powered by Technology
         </h1>
-        <p>
+        <p class="text-grayish description">
           Our Artificial Intelligence powered tools use millions of project data
           points to ensure that your project is successful
         </p>
-      </section>
-      <section class="parent">
-        <article class="div1 card">
-          Supervisor Monitors activity to identify project roadblocks
-          <img src="./images/icon-supervisor.svg" alt="Icon Supervisor" />
+      </header>
+      <section class="services-grid">
+        <article class="supervisor card">
+          <h2>
+            Supervisor
+          </h2>
+          <p class="text-grayish description">
+            Monitors activity to identify project roadblocks
+          </p>
+          <img
+            class="icon-feature"
+            src="./images/icon-supervisor.svg"
+            alt="Icon Supervisor"
+          />
         </article>
-        <article class="div2 card">
-          Team Builder Scans our talent network to create the optimal team for
-          your project
-          <img src="./images/icon-team-builder.svg" alt="Team Builder" />
+        <article class="team-Builder card">
+          <h2>
+            Team Builder
+          </h2>
+          <p class="text-grayish description">
+            Scans our talent network to create the optimal team for your project
+          </p>
+          <img
+            class="icon-feature"
+            src="./images/icon-team-builder.svg"
+            alt="Team Builder"
+          />
         </article>
-        <article class="div3 card">
-          Karma Regularly evaluates our talent to ensure quality
-          <img src="./images/icon-karma.svg" alt="Icon Karma" />
+        <article class="karma card">
+          <h2>
+            Karma
+          </h2>
+          <p class="text-grayish description">
+            Regularly evaluates our talent to ensure quality
+          </p>
+          <img
+            class="icon-feature"
+            src="./images/icon-karma.svg"
+            alt="Icon Karma"
+          />
         </article>
-        <article class="div4 card">
-          Calculator Uses data from past projects to provide better delivery
-          estimates
-          <img src="./images/icon-calculator.svg" alt="Icon Calculator" />
+        <article class="calculator card">
+          <h2>
+            Calculator
+          </h2>
+          <p class="text-grayish">
+            Uses data from past projects to provide better delivery estimates
+          </p>
+          <img
+            class="icon-feature"
+            src="./images/icon-calculator.svg"
+            alt="Icon Calculator"
+          />
         </article>
       </section>
     </main>
 
-    <footer>
-      <p class="attribution">
+    <footer class="pt-1">
+      <p class="text-center">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          rel="noopener noreferrer"
           >Frontend Mentor</a
         >. Coded by
-        <a href="https://alexbaez.dev/" target="_blank">Alejandro Báez</a>.
+        <a
+          href="https://alexbaez.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Alejandro Báez</a
+        >.
       </p>
     </footer>
   </body>
